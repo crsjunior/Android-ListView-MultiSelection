@@ -132,7 +132,7 @@ public class VersaoCItemAdapter extends ArrayAdapter<Item>
 				}
 			});
 		} else {
-			row.setBackgroundResource(R.drawable.list_item_normal);
+			row.setBackgroundResource(R.drawable.list_normal);
 		}
 
 		return row;
