@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.example.lvmultiselection.MainActivity" >
+
+	<TextView
+		android:id="@+id/Main_txvTitulo"
+		style="@style/widthFill_heightWrap"
+		android:layout_marginBottom="20dp"
+		android:gravity="center"
+		android:textAppearance="@android:style/TextAppearance.Medium"
+		android:textColor="@color/Main_txvTitulo"
+		android:text="@string/Main_txvTitulo" />
+
+	<Button
+		android:id="@+id/Main_btnVersaoA"
+		style="@style/widthFill_heightWrap"
+		android:layout_below="@+id/Main_txvTitulo"
+		android:text="@string/Main_btnVersaoA"
+		android:onClick="onClick" />
+
+	<Button
+		android:id="@+id/Main_btnVersaoB"
+		style="@style/widthFill_heightWrap"
+		android:layout_below="@+id/Main_btnVersaoA"
+		android:text="@string/Main_btnVersaoB"
+		android:onClick="onClick" />
+
+	<Button
+		android:id="@+id/Main_btnVersaoC"
+		style="@style/widthFill_heightWrap"
+		android:layout_below="@+id/Main_btnVersaoB"
+		android:text="@string/Main_btnVersaoC"
+		android:onClick="onClick" />
+
+</RelativeLayout>

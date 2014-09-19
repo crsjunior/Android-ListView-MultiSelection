@@ -1,17 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lvmultiselection"
-    android:versionCode="1"
-    android:versionName="1.0" >
+	package="com.example.lvmultiselection"
+	android:versionCode="1"
+	android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
+	<uses-sdk
+		android:minSdkVersion="8"
+		android:targetSdkVersion="19" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-    </application>
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme" >
+		<activity
+			android:name=".MainActivity"
+			android:label="@string/title_activity_main" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".VersaoAActivity"
+			android:label="@string/title_activity_versao_a"
+			android:parentActivityName=".MainActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.example.lvmultiselection.MainActivity" />
+		</activity>
+		<activity
+			android:name=".VersaoBActivity"
+			android:label="@string/title_activity_versao_b"
+			android:parentActivityName=".MainActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.example.lvmultiselection.MainActivity" />
+		</activity>
+		<activity
+			android:name=".VersaoCActivity"
+			android:label="@string/title_activity_versao_c"
+			android:parentActivityName=".MainActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.example.lvmultiselection.MainActivity" />
+		</activity>
+		<activity
+			android:name=".VersaoAIncluirItensActivity"
+			android:label="@string/title_activity_versao_aincluir_itens"
+			android:parentActivityName=".VersaoAActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.example.lvmultiselection.VersaoAActivity" />
+		</activity>
+		<activity
+			android:name=".VersaoBIncluirItensActivity"
+			android:label="@string/title_activity_versao_bincluir_itens"
+			android:parentActivityName=".VersaoBActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.example.lvmultiselection.VersaoBActivity" />
+		</activity>
+		<activity
+			android:name=".VersaoCIncluirItensActivity"
+			android:label="@string/title_activity_versao_cincluir_itens"
+			android:parentActivityName=".VersaoCActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.example.lvmultiselection.VersaoCActivity" />
+		</activity>
+	</application>
 
 </manifest>

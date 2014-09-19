@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7"
+        android:layout_marginStart="5dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/a_txvNome"
+            style="@style/txvNome" />
+
+        <TextView
+            android:id="@+id/a_txvDescricao"
+            style="@style/txvDescricao" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/a_btnSelecionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</LinearLayout>

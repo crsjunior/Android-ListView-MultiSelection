@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="Main_txvTitulo">#ef2417</color>
+	<color name="color_item_selecionado">#9dfc97</color>
+	<color name="color_item_deselecionado">@android:color/transparent</color>
+	<color name="button_text">#000000</color>
+	<color name="button_gradient_start">#c0e0f0</color>
+	<color name="button_gradient_center">#abc8d6</color>
+	<color name="button_gradient_end">#c0e0f0</color>
+	<color name="button_stroke">#000000</color>
+	<color name="button_pressed_gradient_start">#abc8d6</color>
+	<color name="button_pressed_gradient_center">#97b0bd</color>
+	<color name="button_pressed_gradient_end">#abc8d6</color>
+	<color name="button_statePressed_background">#97b0bd</color>
+	<color name="button_statePressed_stroke">#000000</color>
+
+</resources>

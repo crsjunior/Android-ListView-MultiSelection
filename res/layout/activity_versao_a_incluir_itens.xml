@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.listviewmultiselection.VersaoAIncluirItensActivity" >
+
+    <Button
+        android:id="@+id/VersaoAIncluirItens_btnConcluido"
+        style="@style/widthFill_heightWrap"
+        android:text="@string/Versao_btnConcluido"
+        android:onClick="onClick" />
+
+    <ListView
+        android:id="@+id/VersaoAInlcuirItens_ltvItens"
+        style="@style/widthFill_heightWrap"
+        android:layout_below="@+id/VersaoAIncluirItens_btnConcluido"
+        android:layout_marginTop="10dp" >
+    </ListView>
+
+</RelativeLayout>

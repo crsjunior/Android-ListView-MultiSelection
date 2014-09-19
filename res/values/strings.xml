@@ -1,5 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">LVMultiSelection</string>
+	<string name="app_name">+ LV Selection II</string>
+
+	<!-- TITULOS DAS ACTIVITIES -->
+	<string name="title_activity_main">+ LV Selection II</string>
+	<string name="title_activity_versao_a">VersaoAActivity</string>
+	<string name="title_activity_versao_b">VersaoBActivity</string>
+	<string name="title_activity_versao_c">VersaoCActivity</string>
+	<string name="title_activity_versao_aincluir_itens">VersaoAIncluirItensActivity</string>
+	<string name="title_activity_versao_bincluir_itens">VersaoBIncluirItensActivity</string>
+	<string name="title_activity_versao_cincluir_itens">VersaoCIncluirItensActivity</string>
+
+	<!-- MAIN -->
+	<string name="Main_txvTitulo">Escolha uma versão para demonstração</string>
+	<string name="Main_btnVersaoA">Versão A</string>
+	<string name="Main_btnVersaoB">Versão B</string>
+	<string name="Main_btnVersaoC">Versão C</string>
+
+	<!-- VERSAO_? -->
+	<string name="Versao_btnEditarItensLista">Editar itens da lista</string>
+	<string name="Versao_btnConcluido">Concluído</string>
+	<string name="Versao_txvOrdenarPor">Ordenar por:</string>
+
+	<string-array name="Versao_spnOrdenacao">
+		<item>ID</item>
+		<item>Nome</item>
+		<item>Descrição</item>
+	</string-array>
+
+	<!-- LISTA DE ITENS -->
+	<string name="item_selecionado">-</string>
+	<string name="item_deselecionado">+</string>
 
 </resources>
